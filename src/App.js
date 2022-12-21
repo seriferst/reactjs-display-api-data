@@ -36,7 +36,7 @@ function App() {
     setSearchItem(searchValue);
     let filteredList = names.filter(n =>  n?.toLowerCase().indexOf(searchValue.toLowerCase()) > -1);
     filteredList = filteredList.map((item,key) => (<li key={key}>{item}</li>))
-    console.log(filteredList)
+
     setFilteredItems(filteredList);
   }
 
