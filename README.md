@@ -3,6 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+This project written using Node v16.15.1
 
 In the project directory, you can run:
 ### `npm install`
